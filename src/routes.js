@@ -33,7 +33,9 @@ export const routes = [
         .find(task => task.title === title);
 
       if (taskExists) {
-        return res.writeHead(400).end('Task already exists');
+        return res
+          .writeHead(400)
+          .end(JSON.stringify({ message: 'Task already exists' }));
       }
 
       database.insert('tasks', data);
