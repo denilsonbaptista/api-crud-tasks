@@ -1,0 +1,10 @@
+GET http://localhost:3000/tasks HTTP/1.1
+
+###
+
+POST http://localhost:3000/tasks HTTP/1.1
+
+{
+  "title": "task one",
+  "description": "task one description"
+}
