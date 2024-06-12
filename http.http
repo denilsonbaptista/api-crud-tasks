@@ -12,3 +12,7 @@ POST http://localhost:3000/tasks
 ###
 
 DELETE http://localhost:3000/tasks/e4303ef1-2c9b-4239-834f-c97a9f68a617
+
+###
+
+PATCH http://localhost:3000/tasks/6f9cbd28-b31e-477b-922d-0d8e1e42aef0/complete
