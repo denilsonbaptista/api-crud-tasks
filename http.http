@@ -1,10 +1,14 @@
-GET http://localhost:3000/tasks HTTP/1.1
+GET http://localhost:3000/tasks?search
 
 ###
 
-POST http://localhost:3000/tasks HTTP/1.1
+POST http://localhost:3000/tasks
 
 {
-  "title": "task one",
-  "description": "task one description"
+  "title": "exercise",
+  "description": "exercise description"
 }
+
+###
+
+DELETE http://localhost:3000/tasks/e4303ef1-2c9b-4239-834f-c97a9f68a617
