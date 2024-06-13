@@ -5,8 +5,8 @@ GET http://localhost:3000/tasks?search
 POST http://localhost:3000/tasks
 
 {
-  "title": "exercise",
-  "description": "exercise description"
+  "title": "Fazer um bolo",
+  "description": "Misture os ingredientes secos (farinha, açúcar, fermento em pó) em um recipiente. Em outro recipiente, misture os ingredientes úmidos (ovos, leite, óleo). Combine os ingredientes secos e úmidos até formar uma massa homogênea. Despeje a massa em uma forma untada e enfarinhada. Asse em forno pré-aquecido a 180°C por cerca de 30 minutos, ou até dourar."
 }
 
 ###
